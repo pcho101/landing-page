@@ -107,11 +107,24 @@ img {
 }
 
 .quote {
-    color: #99a093;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 128px;
+}
+
+.quotation {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 32px;
 }
 
 .quote-author {
-    color: #1F2937
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
 }
 
 .title-bot {
