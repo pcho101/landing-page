@@ -43,7 +43,8 @@ a {
 /* main */
 
 .main{
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
+    background-image: url(./images/bg.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +58,19 @@ a {
 .main-title {
     font-size: 48px;
     font-weight: bolder;
+    text-shadow: 0.04em 0 black,
+        0 0.04em black,
+        -0.04em 0 black,
+        0 -0.04em black;
     color: #F9FAF8;
 }
 
 .main-subtitle {
     font-size: 18px;
+    text-shadow: 0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
     color: #E5E7EB;
 }
 
@@ -82,8 +91,9 @@ a {
     background-color: #1b70f8
 }
 
-.main-img {
+.main-img img {
     padding: 64px 16px;
+    width: 480px;
 }
 
 /* rand */
@@ -105,7 +115,7 @@ a {
     text-align: center;
 }
 
-img {
+.info img {
     width: 200px;
     height: 200px;
     border: #3882F6;
