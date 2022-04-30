@@ -3,7 +3,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* header */
 
 .header {
     background-color: #1F2937;
@@ -12,7 +15,14 @@ body {
     align-items: center;
 }
 
-.right {
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
+.header-right {
     padding: 16px;
     justify-content: space-between;
 }
@@ -30,36 +40,32 @@ a {
     text-decoration: none;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-    padding: 16px;
+/* main */
+
+.main{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main-box {
+    padding: 32px 16px;
 }
 
 .main-title {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.main {
-    padding: 64px 16px;
-}
-
-.title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.subtitle {
+.main-subtitle {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.button-one {
+.main-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
@@ -71,14 +77,16 @@ a {
     transition-duration: 0.4s;
 }
 
-.button-one:hover {
+.main-button:hover {
     color: #F9FAF8;
     background-color: #1b70f8
 }
 
-.img-place {
+.main-img {
     padding: 64px 16px;
 }
+
+/* rand */
 
 .rand-title {
     font-size: 36px;
@@ -88,37 +96,38 @@ a {
     padding: 16px;
 }
 
-.container {
+.rand-box {
     border: #3882F6;
     display: flex;
     justify-content: center;
     gap: 52px;
     padding: 16px;
-    margin-bottom: 64px;
     text-align: center;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: #3882F6;
     border-style: solid;
     border-radius: 6px;
 }
 
+/* quote */
+
 .quote {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 0px 128px;
+    padding: 48px 128px;
 }
 
-.quotation {
+.quote-text {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
     text-align: center;
-    padding-top: 32px;
+    /* padding-top: 32px; */
 }
 
 .quote-author {
@@ -126,6 +135,8 @@ img {
     font-weight: bold;
     text-align: right;
 }
+
+/* signup */
 
 .signup {
     background-color: #3882F6;
@@ -135,7 +146,7 @@ img {
     border-radius: 8px;
 }
 
-.block {
+.signup-block {
     flex: 4;
 }
 
@@ -152,7 +163,7 @@ img {
     flex: 3;
 }
 
-.button-two {
+.signup-button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-color: #F9FAF8;
@@ -164,10 +175,12 @@ img {
     transition-duration: 0.4s;
 }
 
-.button-two:hover {
+.signup-button:hover {
     color: #F9FAF8;
     background-color: #1b70f8
 }
+
+/* footer */
 
 .footer {
     background-color: #1F2937;
