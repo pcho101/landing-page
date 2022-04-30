@@ -44,7 +44,7 @@ a {
     align-items: center;
 }
 
-.signup {
+.main {
     padding: 64px 16px;
 }
 
@@ -127,16 +127,31 @@ img {
     text-align: right;
 }
 
-.title-bot {
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    padding: 24px 64px;
+    margin: 64px;
+    border-radius: 8px;
+}
+
+.block {
+    flex: 4;
+}
+
+.signup-title {
     font-size: 16px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex: 3;
 }
 
-.subtitle-bot {
+.signup-subtitle {
     font-size: 12px;
     color: #E5E7EB;
+    flex: 3;
 }
+
 .button-two {
     color: #3882F6;
     background-color: #F9FAF8;
