@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    min-height: 100vh
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -34,8 +37,15 @@ a {
     padding: 16px;
 }
 
-.signup {
+.main-title {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup {
+    padding: 64px 16px;
 }
 
 .title {
@@ -64,6 +74,10 @@ a {
 .button-one:hover {
     color: #F9FAF8;
     background-color: #1b70f8
+}
+
+.img-place {
+    padding: 64px 16px;
 }
 
 .random-info {
