@@ -153,9 +153,9 @@ img {
 }
 
 .button-two {
-    color: #3882F6;
-    background-color: #F9FAF8;
-    border: #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
     padding: 8px 32px;
     text-align: center;
     font-size: 16px;
@@ -172,4 +172,6 @@ img {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px;
+    text-align: center;
 }
